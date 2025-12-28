@@ -1,0 +1,24 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* FARVER */
+:root {
+  --color-morkrod: #670626;
+  --color-rod: #c74e51;
+  --color-orange: #f99256;
+  --color-pink: #ffbdc5;
+  --color-beige: #fffbed;
+  --color-blue: #5e7b9b;
+  --color-black: #000;
+  --color-white: #fff;
+}
