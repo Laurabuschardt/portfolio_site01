@@ -36,6 +36,11 @@ h1 {
   color: var(--color-morkrod);
 }
 
+.h1_footer {
+  color: var(--color-morkrod);
+  font-size: 40px;
+}
+
 h2 {
   font-family: "Sue Ellen Francisco", cursive;
   font-weight: 400;
@@ -52,17 +57,29 @@ h3 {
 
 p {
   font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
+
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 1.5;
 }
 
+.menu li {
+  font-family: "Jost", sans-serif;
+
+  font-weight: 500;
+  font-style: normal;
+}
+
 @media (min-width: 850px) {
   h1 {
     font-size: 100px;
   }
+
+  .h1_footer {
+    font-size: 70px;
+  }
+
   h2 {
     font-size: 64px;
   }
@@ -75,7 +92,7 @@ p {
 }
 
 /* KNAP*/
-button {
+.knap {
   background-color: var(--color-blue);
   font-family: "Sue Ellen Francisco", cursive;
   font-weight: 400;
@@ -89,6 +106,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.knap:hover {
   background-color: #40566c;
 }
