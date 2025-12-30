@@ -48,6 +48,11 @@ h2 {
   font-size: 32px;
 }
 
+.forside_h2 {
+  color: var(--color-beige);
+  font-size: 28px;
+}
+
 h3 {
   font-family: "Sue Ellen Francisco", cursive;
   font-weight: 400;
@@ -60,8 +65,17 @@ p {
 
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
+}
+
+.om_2 li {
+  font-family: "Jost", sans-serif;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 3;
 }
 
 .menu li {
@@ -83,6 +97,11 @@ p {
   h2 {
     font-size: 64px;
   }
+
+  .forside_h2 {
+    font-size: 36px;
+  }
+
   h3 {
     font-size: 36px;
   }
@@ -91,7 +110,7 @@ p {
   }
 }
 
-/* KNAP*/
+/**** KNAP ****/
 .knap {
   background-color: var(--color-blue);
   font-family: "Sue Ellen Francisco", cursive;

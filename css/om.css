@@ -1,0 +1,127 @@
+/**** Om Mig ****/
+/**** MOBIL ****/
+
+/*** del 1 ***/
+
+.om_1 {
+  padding: 3rem 6rem;
+  background-color: var(--color-morkrod);
+}
+
+.om_1 h1 {
+  justify-self: center;
+  padding-bottom: 1.5rem;
+}
+
+.om_1 h3 {
+  color: var(--color-beige);
+  padding-bottom: 1rem;
+}
+
+.om_1 p {
+  color: var(--color-beige);
+}
+
+.p_1 {
+  padding-bottom: 0.8rem;
+}
+
+.om_1 div {
+  justify-self: center;
+  max-width: 300px;
+}
+
+.om_1 img {
+  height: 500px;
+  width: auto;
+  justify-self: center;
+  padding: 3rem;
+  border-radius: 4rem;
+}
+
+/*** del 2 ***/
+.om_2 {
+  background-color: var(--color-rod);
+  color: var(--color-beige);
+}
+
+.om_2 h2 {
+  justify-self: center;
+  padding: 10rem 0 2rem;
+}
+
+.om_2 ul {
+  justify-self: center;
+  padding-bottom: 10rem;
+}
+
+/*** del 3 ***/
+.om_3 {
+  background-color: var(--color-morkrod);
+  color: var(--color-beige);
+  padding: 10rem 5rem;
+}
+
+.om_3 h2 {
+  justify-self: center;
+  padding-bottom: 1.5rem;
+}
+
+.om_3 p {
+  justify-self: center;
+  max-width: 300px;
+}
+
+.p_2 {
+  padding-bottom: 1.2rem;
+}
+
+/***** Desktop version *****/
+
+@media (min-width: 850px) {
+  /* del 1 */
+
+  .om_1_1 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .om_1 {
+    padding: 8rem;
+  }
+
+  .om_1 div {
+    max-width: 780px;
+  }
+
+  .om_1 h1 {
+    font-size: 65px;
+  }
+
+  .om_1 h3 {
+    font-size: 30px;
+    margin-bottom: -0.5rem;
+  }
+
+  .om_1 p {
+    padding-bottom: 0 0 2rem;
+  }
+
+  /*** del 2 ***/
+  .om_2 h2 {
+    justify-self: center;
+    padding: 12rem 0 2rem;
+    font-size: 36px;
+  }
+
+  .om_2 ul {
+    justify-self: center;
+    padding-bottom: 12rem;
+  }
+
+  /*** del 3 ***/
+  .om_3 h2 {
+    font-size: 36px;
+  }
+}

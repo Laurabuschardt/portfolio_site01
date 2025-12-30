@@ -1,0 +1,119 @@
+/**** FORSIDE ****/
+.main_logo {
+  height: 70px;
+  width: auto;
+}
+
+.forside {
+  background-color: var(--color-morkrod);
+}
+
+.del_to {
+  display: flex;
+  justify-self: center;
+}
+
+.forside_h2 {
+  justify-self: center;
+  margin-bottom: -1rem;
+}
+
+main {
+  padding: 6rem 5rem 4rem;
+}
+
+.del_tre {
+  position: relative;
+  width: 450px;
+  margin-left: -3rem;
+}
+
+.del_tre img {
+  width: 87%;
+}
+
+.tekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--color-beige);
+  font-size: 11px;
+  margin-left: -1.5rem;
+}
+
+.tekst h3 {
+  margin-top: -0.5rem;
+}
+
+.tekst a {
+  color: var(--color-orange);
+}
+
+.tekst a:visited {
+  color: var(--color-orange);
+}
+
+#a_h2 {
+  text-decoration: none;
+}
+
+#a_h2:visited {
+  text-decoration: none;
+}
+
+/**** Desktop version ****/
+@media (min-width: 850px) {
+  main {
+    padding: 8rem 10rem 6rem;
+  }
+  .main_logo {
+    height: 125px;
+  }
+
+  .del_tre {
+    width: 450px;
+    margin-left: -6rem;
+  }
+
+  .del_tre img {
+    width: 100%;
+  }
+
+  .tekst h3 {
+    font-size: 24px;
+    margin-right: -2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .del_tre {
+    margin-left: -5rem;
+  }
+  .del_to h1 {
+    font-size: 150px;
+  }
+
+  .main_logo {
+    height: 180px;
+  }
+  /*
+  .del_to {
+    align-items: center;
+    display: inline-flex;
+    line-height: 1;
+  }*/
+
+  .forside_h2 {
+    margin-bottom: -1rem;
+  }
+
+  .forside_h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1400px) {
+  .del_tre {
+    margin-left: -1rem;
+  }
+}
