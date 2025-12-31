@@ -46,14 +46,14 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: var(--color-white);
+  color: var(--color-morkrod);
   text-decoration: none;
   transition: color 0.3s;
   text-align: center;
 }
 
 .menu a:hover {
-  color: var(--color-morkrod);
+  color: var(--color-white);
 }
 
 /******* Burger menu *****/

@@ -1,0 +1,103 @@
+/*** Projekt ***/
+/*** Mobil ***/
+
+main {
+  background-color: var(--color-beige);
+}
+
+.projekt_1 {
+  padding: 3.5rem 3.5rem 4rem;
+}
+
+.projekt_1 h1 {
+  justify-self: center;
+  padding-bottom: 1.2rem;
+}
+
+.projekt_1 div {
+  max-width: 400px;
+  justify-self: center;
+}
+
+/* del 2 */
+
+.projekt_2 h3 {
+  justify-self: center;
+}
+
+.projekt_2 img {
+  height: 300px;
+  width: auto;
+  justify-self: center;
+  padding-bottom: 4rem;
+}
+
+.projekt_2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.div1 img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.div2 img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.div1:hover img {
+  transform: scale(1.07);
+  filter: grayscale(0%);
+}
+
+.div2:hover img {
+  transform: scale(1.07);
+  filter: grayscale(0%);
+}
+
+/*** desktop ***/
+
+@media (min-width: 1000px) {
+  .h3_img {
+    display: flex;
+    gap: 4rem;
+    justify-self: center;
+  }
+
+  .projekt_1 div {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section {
+    display: flex;
+    justify-self: center;
+    gap: 5rem;
+  }
+
+  main {
+    padding: 4rem;
+  }
+
+  .projekt_2 img {
+    height: 250px;
+    width: auto;
+    justify-self: center;
+    padding-bottom: 4rem;
+  }
+
+  .div1 {
+    padding-top: 2.5rem;
+  }
+
+  .div1:hover img {
+    transform: scale(1.1);
+  }
+
+  .div2:hover img {
+    transform: scale(1.1);
+  }
+}
