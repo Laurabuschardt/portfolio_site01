@@ -15,15 +15,12 @@
 
 .om_1 h3 {
   color: var(--color-beige);
-  padding-bottom: 1rem;
+  padding-bottom: 0.2rem;
 }
 
 .om_1 p {
   color: var(--color-beige);
-}
-
-.p_1 {
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 
 .om_1 div {
@@ -47,12 +44,20 @@
 
 .om_2 h2 {
   justify-self: center;
-  padding: 10rem 0 2rem;
+  padding: 5rem 0 2rem;
 }
 
 .om_2 ul {
   justify-self: center;
-  padding-bottom: 10rem;
+}
+
+.om_2 img {
+  width: 500px;
+  height: auto;
+  padding: 4rem;
+  border-radius: 5rem;
+  justify-self: center;
+  filter: grayscale(100%);
 }
 
 /*** del 3 ***/
@@ -79,6 +84,39 @@
 /***** Desktop version *****/
 
 @media (min-width: 850px) {
+  .om_1 h1 {
+    font-size: 50px;
+  }
+
+  .om_1 h3 {
+    font-size: 24px;
+  }
+
+  /*** del 2 ***/
+  .om_2 h2 {
+    justify-self: center;
+    padding: 6rem 0 2rem;
+    font-size: 36px;
+  }
+
+  .om_2 ul {
+    justify-self: center;
+  }
+
+  .om_2 img {
+    width: 600px;
+    height: auto;
+    padding: 6rem;
+    border-radius: 7rem;
+  }
+
+  /*** del 3 ***/
+  .om_3 h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 950px) {
   /* del 1 */
 
   .om_1_1 {
@@ -101,27 +139,5 @@
 
   .om_1 h3 {
     font-size: 30px;
-    margin-bottom: -0.5rem;
-  }
-
-  .om_1 p {
-    padding-bottom: 0 0 2rem;
-  }
-
-  /*** del 2 ***/
-  .om_2 h2 {
-    justify-self: center;
-    padding: 12rem 0 2rem;
-    font-size: 36px;
-  }
-
-  .om_2 ul {
-    justify-self: center;
-    padding-bottom: 12rem;
-  }
-
-  /*** del 3 ***/
-  .om_3 h2 {
-    font-size: 36px;
   }
 }

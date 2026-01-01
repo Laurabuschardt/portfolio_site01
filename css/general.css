@@ -76,6 +76,10 @@ p {
   line-height: 1.5;
 }
 
+.p_bold {
+  font-weight: bold;
+}
+
 .om_2 li {
   font-family: "Jost", sans-serif;
 
@@ -87,9 +91,17 @@ p {
 
 .menu li {
   font-family: "Jost", sans-serif;
-
   font-weight: 500;
   font-style: normal;
+}
+
+.link {
+  color: var(--color-orange);
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 24px;
 }
 
 @media (min-width: 850px) {
@@ -107,7 +119,7 @@ p {
   }
 
   h2 {
-    font-size: 64px;
+    font-size: 36px;
   }
 
   .forside_h2 {
@@ -140,6 +152,7 @@ p {
   border-radius: 30px;
   box-shadow: 2px 2px 5px gray;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .knap:hover {
