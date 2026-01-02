@@ -80,6 +80,10 @@ main {
   justify-self: center;
   margin-top: 4rem;
 }
+
+.billede {
+  margin-bottom: 8rem;
+}
 .p_cta {
   display: flex;
   flex-direction: column;
@@ -88,7 +92,7 @@ main {
 
 .p_cta .knap {
   align-self: center;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 
 /***** del 4 ****/
@@ -112,7 +116,7 @@ main {
 
 /***** del 5 *****/
 .section_2_5 {
-  padding: 7rem 3rem;
+  padding: 7rem 5rem;
 }
 
 .section_2_5 h2 {
@@ -186,21 +190,13 @@ main {
     max-width: 900px;
     gap: 3rem;
     justify-self: center;
+    align-items: center;
   }
   .section_2_3 {
     padding: 10rem 5rem;
   }
 
-  .p_cta {
-    align-self: center;
-  }
-
   /*** del 5 ***/
-  .flex2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: center;
-  }
 }
 
 @media (min-width: 1300px) {
@@ -223,10 +219,6 @@ main {
   }
 
   /** del 5 ***/
-  .flex2 img {
-    width: 600px;
-    height: auto;
-  }
 
   .section_2_5 {
     padding: 10rem 3rem;
