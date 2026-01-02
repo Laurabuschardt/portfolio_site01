@@ -1,0 +1,38 @@
+/*** top linje når man scroller ***/
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  block-size: 5px;
+  background-color: var(--color-pink);
+
+  animation: site-progress 3s linear;
+  transform-origin: 0;
+  animation-timeline: scroll();
+  z-index: 100;
+}
+
+@keyframes site-progress {
+  from {
+    scale: 0 1;
+  }
+}
+
+/**** med id basket, bliver synlig når man scroller ***/
+
+#basket {
+  animation: clip-reveal-top ease-in-out both;
+  animation-timeline: view();
+  animation-range: 10% 50%;
+}
+
+@keyframes clip-reveal-top {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}

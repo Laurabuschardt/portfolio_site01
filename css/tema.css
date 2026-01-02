@@ -218,9 +218,15 @@ main {
     font-size: 30px;
   }
 
+  /* del 3 */
+
+  .section_2_3 {
+    padding: 15rem 0;
+  }
+
   /** del 5 ***/
 
   .section_2_5 {
-    padding: 10rem 3rem;
+    padding: 13rem 3rem;
   }
 }

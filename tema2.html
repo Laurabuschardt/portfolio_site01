@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/tema.css">
     <link rel="stylesheet" href="css/dialog.css">
+    <link rel="stylesheet" href="css/animationer.css">
     <title>Tema 2</title>
 
 </head>
@@ -62,7 +63,7 @@
 
         </section>
 
-        <section class="section_2_2">
+        <section class="section_2_2" id="basket">
             <div>
                 <h2>Opgave beskrivelse</h2>
                 <p>Jeg skulle lave et website ud fra nogle wireframes og layout diagrammer, som vi fik udleveret.</p>
@@ -70,7 +71,7 @@
             </div>
 
         </section>
-        <section class="section_2_3">
+        <section class="section_2_3" id="basket">
             <h2>Process</h2>
             <div class="flex">
                 <div class="p_cta">
@@ -79,10 +80,42 @@
                         eksempler på noget af den kodning jeg lærte. Tryk på knappen for at læse mere.</p>
 
                     <dialog id="dialog1">
+                        <h2>Kodning</h2>
+                        <div>
+                            <h3>Grid</h3>
 
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero cumque iusto dolorem
-                            quia quod doloribus autem accusamus dolorum ullam quae, eos quasi temporibus commodi
-                            corporis magnam qui veniam rerum consequatur?</p>
+                            <p>
+                                Ved at opsætte en display:grid; fortæller jeg den, at jeg gerne vil lave et grid, og med
+                                med
+                                ‘grid-template-columns: 1fr 1fr;' fortæller jeg den, at jeg gerne vil have 2 kolonner
+                                der
+                                fylder lige meget hver.
+                            </p>
+                            <img src="billeder/dialog1_tema2.webp" alt="grid">
+
+                            <p>På den måde får vi to div’er til at stå ved siden af hinanden. Resultat:</p>
+                            <img src="billeder/dialog1_2.webp" alt="resultat">
+                        </div>
+                        <div>
+                            <h3>Last child</h3>
+                            <p>
+                                Som forklaret før, kan man se, at jeg sætter layoutet op i 3 kolonner. For at sikre, at
+                                sidste element i hver kolonne
+                                flugter langs bunden, bruger jeg ‘last-child’. Den kalder på det sidste element i hver
+                                kolonne. Jeg bruger derefter
+                                ‘margin-top:auto;’ for at tvinge elementet helt i bund. Nu ligger alle af de tre sidste
+                                elementer i hver kolonne på
+                                række, og det er uanset mængden af indhold i de enkelte kolonner.
+                            </p>
+                            <img src="billeder/kode2.webp" alt="last-child">
+                            <p>
+                                I dette tilfælde er det sidste element i hver kolonne et billede. Resultat:
+
+                            </p>
+                            <img src="billeder/dialog1_3.webp" alt="resultat" class="last">
+
+                        </div>
+
 
 
                     </dialog>
@@ -93,7 +126,7 @@
 
             </div>
         </section>
-        <section class="section_2_4">
+        <section class="section_2_4" id="basket">
             <div>
                 <h2>Løsningen</h2>
                 <p>Her kan du finde mit site fra tema 2.</p>
@@ -104,26 +137,22 @@
 
         </section>
         <section class="section_2_5">
+            <div id="basket">
+                <div>
+                    <h2> Læring</h2>
+                    <p>I dette tema har jeg lært at arbejde med responsive layouts ved hjælp af CSS Grid og Flexbox
+                        kombineret med media
+                        queries. Jeg har fået erfaring med at ændre kolonne opbygning, rækkefølge og placering af
+                        elementer afhængigt af
+                        skærmstørrelse. Dette har givet mig en bedre forståelse for, hvordan man opbygger fleksible og
+                        brugervenlige layouts. </p>
+                </div>
 
-            <div>
-                <h2> Læring</h2>
-                <p>I dette tema har jeg lært at arbejde med responsive layouts ved hjælp af CSS Grid og Flexbox
-                    kombineret med media
-                    queries. Jeg har fået erfaring med at ændre kolonne opbygning, rækkefølge og placering af
-                    elementer afhængigt af
-                    skærmstørrelse. Dette har givet mig en bedre forståelse for, hvordan man opbygger fleksible og
-                    brugervenlige layouts. </p>
+
+                <a href="tema3.html" class="link"><span>Næste tema &#8594;</span> </a>
             </div>
 
-
-            <a href="tema3.html" class="link">Næste tema</a>
-
-
-
         </section>
-
-
-
 
     </main>
 

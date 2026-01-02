@@ -150,11 +150,15 @@ p {
   border: none;
   padding: 1px 20px;
   border-radius: 30px;
-  box-shadow: 2px 2px 5px gray;
+  box-shadow: 2px 2px 5px grey;
   cursor: pointer;
   text-decoration: none;
 }
 
 .knap:hover {
   background-color: #40566c;
+}
+
+span {
+  content: "2192";
 }
