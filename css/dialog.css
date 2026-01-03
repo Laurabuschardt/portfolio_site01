@@ -21,15 +21,47 @@ dialog p {
 }
 
 dialog img {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .last {
   margin-bottom: -6rem;
 }
 
+.last_div {
+  margin-bottom: -1rem;
+}
+
+.slut {
+  margin-bottom: 0rem;
+}
+
+.h3_img2 img,
+.slut img {
+  margin-top: 0rem;
+}
+
+.h3_img3 img {
+  margin: 0.5rem 0 3rem;
+}
+.h3_img3 p {
+  margin-bottom: 1rem;
+}
+
 .h3_p {
   margin-bottom: 4rem;
+}
+
+.kun_tekst p {
+  margin-bottom: 0rem;
+}
+
+.kun_tekst h3 {
+  margin-top: 1.5rem;
+}
+
+.mellemrum {
+  margin-top: 5rem;
 }
 
 ::backdrop {
