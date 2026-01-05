@@ -69,7 +69,7 @@ main {
     padding: 8rem 10rem 6rem;
   }
   .main_logo {
-    height: 125px;
+    height: 135px;
   }
 
   .del_tre {
@@ -95,14 +95,8 @@ main {
   }
 
   .main_logo {
-    height: 180px;
+    height: 200px;
   }
-  /*
-  .del_to {
-    align-items: center;
-    display: inline-flex;
-    line-height: 1;
-  }*/
 
   .forside_h2 {
     margin-bottom: -1rem;
